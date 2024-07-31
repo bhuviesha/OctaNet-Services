@@ -1,0 +1,89 @@
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    margin: 0;
+    background-image: url("doodle.jpg");
+    background-size: cover; /* Adjust width while ensuring full height */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    border: 2px solid #ddd;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Cursive', sans-serif;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Cursive', sans-serif;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0e042b;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Cursive', sans-serif;
+}
+
+button:hover {
+    background-color: #171918;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Cursive', sans-serif;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    padding-left: 30px;
+    font-family: 'Cursive', sans-serif;
+}
+
+li:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    height: 80%;
+    width: 2px;
+    background-color: #0b0b0b;
+}
